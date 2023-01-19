@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style type= text/css>
+     div{
+     color:'red'
+     }
+        body{
+        background-image:url("{% static 'semmesterproject/images/dd.jpg' % } ")
+        }
+    </style>
+
+</head>
+<body style="background-color:powderblue;">
+<div align="center">
+    <h1>
+        welcome to diabetes prediction system
+    </h1>
+    <form action = "predict">
+        <input type="submit" value=" lets check up ">
+    </form>
+</div>
+</body>
+</html>
